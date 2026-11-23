@@ -1,6 +1,6 @@
 /* 10m Air Pistol Mixed Team Final CRO Timer – offline service worker. Change VERSION after every update of index.html */
 const PREFIX = "apmt-final-cro-";
-const VERSION = PREFIX + "v1";
+const VERSION = PREFIX + "v5";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./apmt-icon-180.png", "./apmt-icon-192.png", "./apmt-icon-512.png"];
 
 self.addEventListener("install", e => {
